@@ -50,8 +50,7 @@
 						<url:url value="/all/product/productlist" var="url"></url:url>
 						<li><a href="${url }">All Product</a></li>
  						<li class="dropdown">
-							<a href="" class="dropdown-toggle" data-toggle="dropdown">Select by Category<b class="caret"></b></a>
-							<ul class="dropdown-menu">
+													<ul class="dropdown-menu">
 								<c:forEach var="c" items="${categories }">
 									<li><a href="<c:url value="/all/product/productsByCategory?searchCondition=${c.categoryName }"></c:url>" >${c.categoryName }</a></li>
 								</c:forEach>

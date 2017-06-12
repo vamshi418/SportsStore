@@ -7,7 +7,7 @@
 <style>
  body {
         background-color: #444;
-        background: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2012/01/Screen-Shot-2012-01-20-at-2.12.17-PM.png);
+        background: url(http://www.zingerbug.com/Backgrounds/background_images/tan_textured_rock_seamless_pattern.jpg);
         
     }
 .vertical-offset-100{
@@ -49,7 +49,7 @@
 <br>
     <h1><b>Thank you for your business!!!</b></h1>
     <h1>Your order will be shipped within two days</h1>
-    <a href="<c:url value="/all/product/productlist"></c:url>">SHOP NOW</a>
+    <a href="<c:url value="/all/product/productlist"></c:url>">SHOP AGAIN</a>
 </body>
 <br>
 <br>

@@ -10,7 +10,7 @@
 <style>
  body {
         background-color: #444;
-        background: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2012/01/Screen-Shot-2012-01-20-at-2.12.17-PM.png);
+        background: url(http://www.zingerbug.com/Backgrounds/background_images/tan_textured_rock_seamless_pattern.jpg);
         
     }
 .vertical-offset-100{
@@ -32,7 +32,7 @@
 <center>
  
        <url:url value="/resources/images/${product.id }.png" var="url3"></url:url>
-<td><img src="${url3 }" height="200" width="200" ></td>
+<td><img src="${url3 }" height="250" width="250" ></td>
 </center>
 
        </tr>

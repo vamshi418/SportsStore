@@ -16,7 +16,7 @@ body, html {
     height: 100%;
     background-repeat: no-repeat;
     /*background-image: linear-gradient(135deg, rgba(31,123,229,1) 0%, rgba(58,139,232,1) 47%, rgba(70,153,234,1) 92%, rgba(72,156,234,1) 100%);*/
-    background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2012/01/Screen-Shot-2012-01-20-at-2.12.17-PM.png"); 
+    background-image: url("http://www.zingerbug.com/Backgrounds/background_images/tan_textured_rock_seamless_pattern.jpg"); 
     background-size: 100% 100%;
 }
 

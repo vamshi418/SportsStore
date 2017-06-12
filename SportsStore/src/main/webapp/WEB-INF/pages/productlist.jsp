@@ -9,10 +9,10 @@
 <style>
  body {
         background-color: #444;
-        background: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2012/01/Screen-Shot-2012-01-20-at-2.12.17-PM.png);
+        background: url(http://www.zingerbug.com/Backgrounds/background_images/tan_textured_rock_seamless_pattern.jpg);
         
     }
-.vertical-offset-100{
+.table{
     padding-top:100px;
 }
 </style>
@@ -26,9 +26,9 @@
 <%@ include file="header.jsp" %>
 <div class="container">
 
-<table border="thick" align="center" width="400" height="150">
+<table align="center" width="500" height="200">
 	<tr>
-		<th>Image</th>
+		<th><center>Image</center></th>
 		<th>Product Name</th>
 		<th>Price</th>
 		<th>Action</th>
@@ -37,7 +37,7 @@
 <c:forEach items="${products}" var="p" >
 <tr>
 <url:url value="/resources/images/${p.id }.png" var="url3"></url:url>
-<td><img src="${url3 }" height="50" width="50" ></td>
+<td><img src="${url3 }" height="150" width="250" ></td>
 <td>${p.name}</td>
 <td>${p.price }</td>
 <url:url value="/all/product/viewproduct/${p.id}" var="url"></url:url>
@@ -56,6 +56,7 @@
 </td>
 
 </tr>
+<tr><td><br></td></tr>
 </c:forEach>
 </table>
 </div>
@@ -73,6 +74,5 @@
 <br>
 <br>
 </body>
-
 <%@ include file="footer.jsp" %>
 </html>
